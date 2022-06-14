@@ -1,0 +1,11 @@
+@import './_mixins';
+
+.back{
+    @include button;
+}
+.info-context{
+    padding: 10px;
+    background-color: $secondaryBg;
+    border-radius: 5px;
+    margin-top: 20px;
+}

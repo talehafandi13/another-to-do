@@ -1,0 +1,8 @@
+.tasks{
+    max-height: 60vh;
+    overflow-y: scroll;
+    margin: 10px 0;
+}
+.tasks::-webkit-scrollbar{
+    display: none;
+}

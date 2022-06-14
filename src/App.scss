@@ -1,0 +1,19 @@
+@import './styles/_variables';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background-color: $mainBg;
+    color: white;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.App{
+    width: 35%;
+    // height: 80vh;
+    border: 2px solid $mainColor;
+    margin: auto;
+    padding: 15px 25px;
+    font-family: 'Montserrat', sans-serif;
+    // position: relative;
+}
